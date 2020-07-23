@@ -17,16 +17,21 @@ while random != x:
     if x < random:
         tries += 1
         print("Your number is too small")
+        print(" ")
         print("Pls next number")
         x = input()
         x = int(x)
+        print(" ")
     else:
         tries += 1
         print("Your number is too big")
+        print(" ")
         print("Pls next number")
         x = input()
         x = int(x)
+        print(" ")
 if random == x:
     print("You win!")
+    print(" ")
     print("Tries:")
     print(tries)
